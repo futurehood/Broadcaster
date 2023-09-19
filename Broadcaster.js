@@ -3,7 +3,7 @@ export class Broadcaster {
     #listenerObject
 
     constructor (listenerObject) {
-        this.#application = listenerObject
+        this.#listenerObject = listenerObject
     }
 
     async broadcastEvent (eventName, args = []) {
