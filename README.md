@@ -1,3 +1,3 @@
 # Broadcaster
 
-A small module for adding simple event broadcasting to events that may or may not implement specific listeners. 
+A small module for adding support for simple event broadcasting to objects that may or may not implement specific listeners. 
